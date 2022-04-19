@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #414141;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.paytone{
+    font-family: 'Paytone One', sans-serif;;
+}
+
+p{
+    margin: 0;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.yellowbar{
+    background-color: #f9c32d;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.nav{
+    display: block;
+}
+
+.logo{
+    width: 200px;
+}
+
+.navmenu{
+    position: relative;
+    margin: auto;
+    display: inline-flex;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;  
+}
+
+li{
+    display: inline;
+}
+
+.yellow{
+    background-color: #f9c32d;
+}
+
+.text1{
+    float: left;
+    padding-left: 10%;
+    bottom: 1%;
+}
+
+.text2{
+    float: right;
+    padding-right: 10%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.slider{
+    height: 40%;
+}
+
+.slidertext{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    height: 35%;
+}
+
+.sliderfondo{
+    height: 90%;
+    z-index: -1;
+}
+
+.productos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    width: 80%;
+}
+
+.productbox{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.anadirbtn{
+    background-color: #F9C32D;
+    border: solid 2px #F9C32D;
+    border-radius: 24px;
+    margin: 18px;
+}
+
+.destacados{
+    flex-direction: row;
+}
+
+.todosbtn{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.mascotasbox{
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+}
+
+.perros1{
+    color: #4DB5F6;
+}
+
+.gatos2{
+    color: #F6AC4D;
+}
+
+.conejo3{
+    color: #BC4DF6;
+}
+
+.mascotas{
+    width: 100%;
+}
+
+.nuestrasmarcas{
+    width: 80%;
+    display: flex;
+}
+
+.marcas{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.marcastext{
+    width: 65%;
+    position: relative;
+    left: 10%;
+}
+
+.marcasbtn{
+    color: white;
+    background-color: #f9c32d;
+    border-radius: 14px;
+    box-shadow: black 1px 1px 10px;
+    padding: 10px;
+    position: relative;
+    top: 14px;
+}
+
+.logosmarcas{
+    margin: auto;
+    width: 30%;
+    position: relative;
+    left: 10%;
+}
+
+.logoindividual{
+    display: inline-block;
+}
+
+.gatogrande{
+    width: auto;
+    align-content: flex-end;
+    position: relative;
+    left:10%;
+}
+
+.car-marcas{
+    width: 80%;
+    margin: auto;
+}
+
+.premium{
+    display: flex;
+    width: 100%;
+}
+
+.premiumcard{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+    padding: 3rem;
+}
+
+.card1{
+    background-color: #F9C32D;
+}
+
+.card2{
+    background-color: #F6AC4D;
+}
+
+.card3{
+    background-color: #FD779B;
+}
+
+.card4{
+    background-color: #4DB5F6;
+}
+
+.perrosbtn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 8px;
+    padding: 14px;
+}
+
+.gatosbtn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 8px;
+    padding: 14px;
+}
+
+.videosfondo{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 44px;
+    padding-top: 44px ;
+}
+
+.videos{
+    position: relative;
+    left: 10%;
+    display: flex;
+    width: 90%;
+}
+
+.video{
+    width: 90%;
+    margin-left: 30px;
+}
+
+.loadinsta{
+    text-align: center;
+}
+
+.cargarmas{
+    background-color: grey;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.instafollow{
+    background-color: #0074d3;
+    color: white;
+    border: 2px solid #0074d3;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.contacto{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.phone{
+    background-color: #F6AC4D;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    height: 80px;
+    padding-left: 14%;
+}
+
+.schedule{
+    background-color: #F9C32D;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    text-justify: auto;
+    padding-left: 13%;
+}
+
+
+.schedule1{
+    text-justify: auto;
+}
+
+.blog{
+    background-color: #f2f2f2;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.imgblog{
+    position: relative;
+    display:block;
+    height: 100px;
+}
+
+.blog2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogpost{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.blogtext{
+    background-color: white;
+}
+
+.blogbtn{
+    text-decoration: underline 4px #F9C32D;
+}
+
+.nuestrastiendas{
+    background-color: #F9C32D;
+    display: flex;
+    width: 100%;
+}
+
+.tiendasperro{
+    width: 100%;
+    height: 30%;
+}
+
+.conocerbtn{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 26px;
+    margin-top: 16px;
+    padding: 12px;
+}
+
+.refugios{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.refugios1{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.refugios2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.refugiobox{
+    vertical-align: top;
+    width: 80%;
+    margin: auto;
+}
+
+.refugioimg{
+    vertical-align: top;
+}
+
+footer{
+    background-color: #414141;
+    display: flex;
+    width: 100%;
+    color:white;
+    padding-bottom: 10%;
+}
+
+.footerlist{
+    color: white;
+    display: list-item;
+}
+
+.footer1{
+    width:33%;
+}
+.footer3{
+    width:33%;
+}
+.footer2{
+    width:33%;
+}
+
+.suscribete{
+    color:#f9c32d
+}
+
+.inputmail{
+    padding: 8px;
+    margin-right: -5px;
+}
+
+.enviarmail{
+    background-color: #F9C32D;
+    border-style: none;
+    padding: 8px;
+}
